@@ -6,20 +6,15 @@ void Print(int** a, const int n, const int m);
 int is_symmetric(int** a, int n, int in, int j, int count);
 int main()
 {
-    srand((unsigned)time(NULL));
     int n;
     int m;
     cout << "n = ";
     cin >> n;
     cout << "m = ";
     cin >> m;
-    if (n == m)
+    if (n != m)
     {
-
-    }
-    else
-    {
-        cout << "matrix is not simetric" << endl;
+        cout << "not simetric" << endl;
         return 0;
     }
 

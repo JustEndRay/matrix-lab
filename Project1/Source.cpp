@@ -6,7 +6,6 @@ void print(int** a, const int n, const int m);
 int symmetric(int** a, int n, int in, int j, int count);
 int main()
 {
-<<<<<<< HEAD
     int n, m;
     cout << "n = ";cin >> n;
     cout << "m = ";cin >> m;
@@ -15,14 +14,6 @@ int main()
         a[i] = new int[m];
     create(a, n, m);
     print(a, n, m);
-=======
-    int n;
-    int m;
-    cout << "n = ";
-    cin >> n;
-    cout << "m = ";
-    cin >> m;
->>>>>>> 424a77da5c881905130e61c39c8a59e606eaeb1a
     if (n != m)
     {
         cout << "not simetric" << endl;
